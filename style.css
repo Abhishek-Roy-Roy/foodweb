@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    min-height: 100vh;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+}
+.meal-search{
+    margin: 2rem;
+}
+.search{
+    margin: 1rem 0;
+    display:flex;
+    align-items: stretch;
+    
+}
+.searchbar,.btn{
+    width: 100%;
+}
+.searchbar{
+    padding:  0 1rem;
+    font-size: 1rem;
+    outline: 0;
+    border: 1px solid rgb(236, 33, 33);
+    border-radius: 1rem;
+    
+}
+.btn{
+    width: 200px;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    background-color: #8d0a0a;
+    color: white;
+    border: none;
+    border-radius: .7rem;
+}
+.btn:hover{
+    background-color: tomato;
+    cursor: pointer;
+}
+.meal-iteam{
+    border-radius: 1rem;
+    overflow: hidden;
+
+    
+    margin: 2rem 0;
+    box-shadow: 0 4px 21px -12px;
+    height: 500px;
+    
+
+
+}
+.meal-img {
+    width: 100%;
+    display: block;
+}
+.meal-img img{
+    width: 300px;
+    height: 300px;
+     
+
+}
+
+
+
+    @media screen and (min-width: 768px) {
+        #meals{
+            display: grid;
+            grid-template-columns: repeat(3 ,1fr);
+            gap: 1rem;
+            
+     
+        }
+        
+        
+
+    };
+
+    .meal-iteam{
+        margin: 0px;
+    }
+
+    .name{
+        padding: 4px;
+    }
+
+    .meal-name h3{
+        margin-bottom: 1rem;
+    }
+
+
+
+    .btn-recipi{
+        margin-top: 1rem;
+        text-decoration: none;
+        background-color: saddlebrown;
+        color: white;
+        border-radius: 10px;
+        padding: 15px 20px;
+        position: relative;
+        top: 17px;
+        
+
+    }
